@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Poppins:wght@300&display=swap');
+body
+{
+    background-color: lightgrey;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.container
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.container form{
+    display: flex;
+    padding:10px;
+    
+}
+.container button{
+    margin-left: 20px;
+    color:white;
+    background-color: blue;
+    padding:5px;
+    border-radius: 5px;
+    width: 100px;
+}
+.container button:hover{
+    background-color: blueviolet;
+}
+.messagebox
+{
+    padding:20px;
+    width: 100vh;
+    height: 80vh;
+    margin-top: 10vh;
+    background-color: lightblue;
+}
+
+.message{
+    padding: 20px; 
+    font-size: 2vh; 
+}
