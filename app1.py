@@ -33,6 +33,7 @@ def chatbot():
 
 @app.route('/result',methods = ['POST', 'GET'])
 def result():
+    
     conversation = list()
     your_name="Abhishek"  #NAME INPUT
     dbname=your_name+".db"
